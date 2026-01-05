@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+.box {
+  text-align: center;
+}
+
+.progress {
+  width: 300px;
+  height: 20px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#bar {
+  height: 100%;
+  width: 0%;
+  background: #4caf50;
+}
